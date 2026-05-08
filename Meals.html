@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html lang="ar">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="Styles.css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+              rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="Scripts.js" defer></script>
+        <title>الوجبات</title>
+    </head>
+
+    <body>
+        <nav class="orange lighten-1">
+            <div class="new-wrapper">
+                <a href="#" class="brand-logo right">مطعم اللقمة الهنية</a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="index.html">الصفحة الرئيسية</a></li>
+                    <li><a href="AboutUs.html">من نحن</a></li>
+                    <li><a href="Meals.html">الوجبات</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="container">
+            <section id="properties" class="section-1">
+                <h1 class="center-align">مطعم اللقمة الهنية</h1>
+                <table class="highlight centred">
+                    <caption class="caption">قائمة وجبات المطعم</caption>
+                    <thead>
+                        <tr>
+                            <th>اختيار</th>
+                            <th>اظهار التفاصيل</th>
+                            <th>السعر</th>
+                            <th>الوجبة</th>
+                            <th>الرمز</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><button class="btn select-btn">اختيار</button></td>
+                            <td><button class="details-btn">التفاصيل</button></td>
+                            <td>145000 S.P</td>
+                            <td>وجبة كبسة</td>
+                            <td>SF-001</td>
+                        </tr>
+                        <tr class="details-row" style="display:none;">
+                            <td colspan="5">
+                                <img src="Images/kabsa.jpg" alt="وجبة كبسة" class="meal-image"/>
+                                <ul>
+                                    <li>المطبخ: المملكة العربية السعودية</li>
+                                    <li>تصنيف الطعام: اكلة شرقية</li>
+                                    <li>المكونات: ارز بسمتي, دجاج مقطع<br />
+                                    البهارات: هيل - قرفة - قرنفل - لومي - ورق غار<br />
+                                    صلصة الطماطم مع الطماطم المفرومة والثوم, بالاضافة الى البصل والزيت<br />
+                                    وتزين عادة بالمكسرات والزبيب المحمصين</li>
+                                </ul>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><button class="btn select-btn">اختيار</button></td>
+                            <td><button class="details-btn">التفاصيل</button></td>
+                            <td>130000 S.P</td>
+                            <td>وجبة محاشي</td>
+                            <td>SF-002</td>
+                        </tr>
+                        <tr class="details-row" style="display:none;">
+                            <td colspan="5">
+                                <img src="Images/mhashe.jpg" alt="وجبة محاشي" class="meal-image"/>
+                                <ul>
+                                    <li>المطبخ: سوريا</li>
+                                    <li>تصنيف الطعام: اكلة شرقية</li>
+                                    <li>
+                                        المكونات: خضار مجوف, ارز مصري مغسول, لحم مفروم, طماطم, بصل و اعشاب طازجة<br />
+                                        : الصلصة<br />
+                                        دبس بندورة - ماء او مرق الدجاج - القليل من الثوم المهروس والنعناع
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><button class="btn select-btn">اختيار</button></td>
+                            <td><button class="details-btn">التفاصيل</button></td>
+                            <td>185000 S.P</td>
+                            <td>وجبة كبة</td>
+                            <td>SF-003</td>
+                        </tr>
+                        <tr class="details-row" style="display:none;">
+                            <td colspan="5">
+                                <img src="Images/koba.jpg" alt="وجبة كبة" class="meal-image"/>
+                                <ul>
+                                    <li>المطبخ: لبنان</li>
+                                    <li>تصنيف الطعام: اكلة شرقية</li>
+                                    <li>
+                                        المكونات: برغل - لحم - بصل - مكسرات<br />
+                                        : التوابل<br />
+                                        ملعفة صغيرة من الملح - نصف ملعقة صغيرة من الفلفل الاسود - بهارات اللحم وملعقة كبيرة من السماق<br />
+                                        وتقلى بزيت نباتي
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><button class="btn select-btn">اختيار</button></td>
+                            <td><button class="details-btn">التفاصيل</button></td>
+                            <td>60000 S.P</td>
+                            <td>وجبة بروسند</td>
+                            <td>SF-004</td>
+                        </tr>
+                        <tr class="details-row" style="display:none;">
+                            <td colspan="5">
+                                <img src="Images/brosted.jpg" alt="وجبة بروستد" class="meal-image"/>
+                                <ul>
+                                    <li>المطبخ: الولايات المتحدة الامريكية</li>
+                                    <li>تصنيف الطعام: اكلة غربية</li>
+                                    <li>
+                                        المكونات: دجاج<br />
+                                        : التوابل<br />
+                                        ماء - خل - ليمون - ثوم - بصل بودرة - بابريكا - ظفل ابيض/اسود - زنجبيل<br />
+                                        ويقلى بزيت نباتي
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><button class="btn select-btn">اختيار</button></td>
+                            <td><button class="details-btn">التفاصيل</button></td>
+                            <td>150000 S.P</td>
+                            <td>فروج مشوي</td>
+                            <td>SF-005</td>
+                        </tr>
+                        <tr class="details-row" style="display:none;">
+                            <td colspan="5">
+                                <img src="Images/grilled-chicken.jpg" alt="فروج مشوي" class="meal-image"/>
+                                <ul>
+                                    <li>المطبخ: الشرق الاوسط</li>
+                                    <li>تصنيف الطعام: اكلة شرقية</li>
+                                    <li>
+                                        المكونات: دجاج - زبادي<br />
+                                        : التوابل<br />
+                                        ملح - فلفل اسود - بابريكا - بودرة بصل - بودرة ثوم - كزبرة - كمون - هيل - قليل من القرفة<br />
+                                        معجون النكهات: ثوم مهروس - زنجبيل طازج - معجون طماطم - معجون فليفلة <br />
+                                        ويشوى على الشواية
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="center-align" style="margin-top:20px;">
+    <button id="continueBtn" class="btn">متابعة</button>
+</div>
+            </section>
+
+            <div id="selected-meal-form" class="section-1" style="display:none;">
+                <h2 class="center-align">نموذج متابعة</h2>
+                <form id="mealForm" class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="name" type="text" class="validate" required/>
+                            <label for="name">الاسم الكامل</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="nationalId" type="text" class="validate" required />
+                            <label for="nationalId">رقم الحساب المصرفي</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="dob" type="text" class="datepicker" />
+                            <label for="dob">تاريخ الطلب</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="mobile" type="text" class="validate" />
+                            <label for="mobile">رقم الموبايل</label>
+                        </div>
+                    </div>
+                    <button id="submitBtn" class="btn">إرسال</button>
+                </form>
+            </div>
+        </div>
+
+        <footer class="page-footer" style="background-color: rgb(255, 148, 0);">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">مطعم اللقمة الهنية</h5>
+                        <p class="grey-text text-lighten-4">
+                            الموقع الرسمي الخاص بمطعم اللقمة الهنية
+                        </p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">تابعنا على</h5>
+                        <ul>
+                            <li>
+                                <a class="grey-text text-lighten-3" href="#!"><i class="facebook"></i>فيسبوك</a>
+                            </li>
+                            <li>
+                                <a class="grey-text text-lighten-3" href="#!"><i class="twiter"></i>تويتر</a>
+                            </li>
+                            <li>
+                                <a class="grey-text text-lighten-3" href="#!"><i class="instagram"></i>إنستجرام</a>
+                            </li>
+                            <li>
+                                <a class="grey-text text-lighten-3" href="#!"><i class="linkedin"></i>لينكدإن</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">© 2026 موقع مطعم اللقمة الهنية. جميع الحقوق محفوظة</div>
+            </div>
+        </footer>
+    </body>
+</html>
+

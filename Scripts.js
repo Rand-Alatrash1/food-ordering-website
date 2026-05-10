@@ -75,7 +75,7 @@
         });
 
         let tax = total * 0.1;
-        let final = total - tax;
+        let final = total + tax;
 
         let mealNames = selectedMeals.map(m => m.name).join("\n");
 
